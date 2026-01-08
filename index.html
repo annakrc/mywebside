@@ -12,8 +12,8 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffeef8 0%, #ffc3e1 50%, #ffb3d9 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -28,7 +28,7 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff9ec7 0%, #ff6b9d 100%);
             color: white;
             padding: 30px;
             text-align: center;
@@ -37,6 +37,8 @@
         .header h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            font-weight: 600;
         }
 
         .content {
@@ -60,7 +62,7 @@
 
         input[type="text"]:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #ff9ec7;
         }
 
         input[type="date"] {
@@ -73,18 +75,20 @@
 
         input[type="date"]:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #ff9ec7;
         }
 
         button {
             padding: 15px 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff9ec7 0%, #ff6b9d 100%);
             color: white;
             border: none;
             border-radius: 10px;
             font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
             transition: transform 0.2s;
+            letter-spacing: 0.5px;
         }
 
         button:hover {
@@ -113,8 +117,9 @@
         }
 
         .filter-btn.active {
-            background: #667eea;
+            background: linear-gradient(135deg, #ff9ec7 0%, #ff6b9d 100%);
             color: white;
+            font-weight: 600;
         }
 
         .todo-list {
@@ -122,7 +127,7 @@
         }
 
         .todo-item {
-            background: #f8f9fa;
+            background: #fff5fb;
             padding: 20px;
             margin-bottom: 15px;
             border-radius: 10px;
@@ -130,7 +135,7 @@
             align-items: center;
             gap: 15px;
             transition: all 0.3s;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #ff9ec7;
         }
 
         .todo-item:hover {
